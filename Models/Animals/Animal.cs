@@ -1,6 +1,7 @@
-﻿
+﻿using Module18.Sensors;
+
 namespace Module18.Animals;
-public abstract class Animal :  IAnimalSensors {
+public abstract class Animal : IAnimalSensors {
     protected Animal(int id, string name, int age, double weight, double health, string status) {
         Id = id;
         Name = name;
