@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Module18; 
+namespace Module18.View; 
 public partial class AnimalsListWindow : Window {
     public AnimalsListWindow() {
         InitializeComponent();
